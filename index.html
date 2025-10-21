@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="プロフェッショナルでモダンなウェブサイト - スマホ完全対応">
+    <title>Mekanikku+ | プロフェッショナルウェブサイト</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ハンバーガーメニュー用チェックボックス -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <span class="logo-icon">🚀</span>
+                    <span class="logo-text">Mekanikku+</span>
+                </a>
+                
+                <!-- ハンバーガーアイコン -->
+                <label for="menu-toggle" class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                
+                <!-- ナビゲーション -->
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#features" class="nav-link">特徴</a></li>
+                        <li><a href="#services" class="nav-link">サービス</a></li>
+                        <li><a href="#portfolio" class="nav-link">実績</a></li>
+                        <li><a href="#testimonials" class="nav-link">お客様の声</a></li>
+                        <li><a href="#contact" class="btn-nav">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-subtitle">次世代の</span>
+                    ビジネスソリューション
+                </h1>
+                <p class="hero-description">
+                    モダンなデザインと最新技術で、<br>
+                    あなたのビジネスを加速させます
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">無料で相談する</a>
+                    <a href="#features" class="btn btn-secondary">詳しく見る</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">プロジェクト</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">満足度</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">サポート</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 特徴セクション -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">FEATURES</span>
+                <h2 class="section-title">選ばれる理由</h2>
+                <p class="section-description">最高のサービスを提供するための強み</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">完全レスポンシブ</h3>
+                    <p class="feature-text">すべてのデバイスで美しく表示される設計</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">高速パフォーマンス</h3>
+                    <p class="feature-text">最適化されたコードで快適な体験</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3 class="feature-title">モダンデザイン</h3>
+                    <p class="feature-text">最新トレンドを取り入れた美しいUI</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 class="feature-title">セキュリティ</h3>
+                    <p class="feature-text">安全性を最優先した設計</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">SEO最適化</h3>
+                    <p class="feature-text">検索エンジンで上位表示を実現</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3 class="feature-title">24時間サポート</h3>
+                    <p class="feature-text">いつでもサポート体制を整備</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- サービスセクション -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">SERVICES</span>
+                <h2 class="section-title">提供サービス</h2>
+                <p class="section-description">あらゆるニーズに対応する幅広いサービス</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <h3 class="service-title">ウェブデザイン</h3>
+                    <p class="service-text">ブランドイメージを最大限に表現する、カスタムデザインのウェブサイトを制作。ユーザー体験を第一に考えた設計で、訪問者を顧客に変えます。</p>
+                    <ul class="service-features">
+                        <li>UI/UXデザイン</li>
+                        <li>レスポンシブデザイン</li>
+                        <li>ブランディング</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <h3 class="service-title">ウェブ開発</h3>
+                    <p class="service-text">最新技術を駆使した、高性能で保守性の高いウェブアプリケーション開発。スケーラブルで安全なシステムを構築します。</p>
+                    <ul class="service-features">
+                        <li>フロントエンド開発</li>
+                        <li>バックエンド開発</li>
+                        <li>API統合</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <h3 class="service-title">デジタルマーケティング</h3>
+                    <p class="service-text">SEO対策、コンテンツマーケティング、SNS運用など、総合的なデジタルマーケティング戦略でビジネスの成長をサポート。</p>
+                    <ul class="service-features">
+                        <li>SEO/SEM対策</li>
+                        <li>SNSマーケティング</li>
+                        <li>コンテンツ制作</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ポートフォリオセクション -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">PORTFOLIO</span>
+                <h2 class="section-title">実績紹介</h2>
+                <p class="section-description">これまでに手がけたプロジェクトの一部</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div class="portfolio-overlay">
+                            <h4>ECサイトリニューアル</h4>
+                            <p>売上300%増を実現</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="portfolio-overlay">
+                            <h4>コーポレートサイト</h4>
+                            <p>ブランド価値向上</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div class="portfolio-overlay">
+                            <h4>Webアプリ開発</h4>
+                            <p>業務効率50%改善</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div class="portfolio-overlay">
+                            <h4>ランディングページ</h4>
+                            <p>CV率200%向上</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- お客様の声セクション -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">TESTIMONIALS</span>
+                <h2 class="section-title">お客様の声</h2>
+                <p class="section-description">実際にご利用いただいたお客様からの評価</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">「期待以上のクオリティで、売上が大幅に向上しました。レスポンスも早く、とても満足しています。」</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">田</div>
+                        <div class="author-info">
+                            <div class="author-name">田中太郎</div>
+                            <div class="author-role">株式会社ABC 代表取締役</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">「デザインが素晴らしく、お客様からの評判も上々です。プロフェッショナルなサポートに感謝しています。」</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">鈴</div>
+                        <div class="author-info">
+                            <div class="author-name">鈴木花子</div>
+                            <div class="author-role">オンラインストア経営</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">「技術力が高く、複雑な要件にも柔軟に対応していただけました。次のプロジェクトもお願いしたいです。」</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">佐</div>
+                        <div class="author-info">
+                            <div class="author-name">佐藤次郎</div>
+                            <div class="author-role">IT企業 CTO</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTAセクション -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">プロジェクトを始めましょう</h2>
+                <p class="cta-text">無料相談で、あなたのビジネス課題を解決する最適なソリューションをご提案します</p>
+                <div class="cta-buttons">
+                    <a href="mailto:info@mekanikku.com" class="btn btn-cta-primary">今すぐ相談する</a>
+                    <a href="tel:03-1234-5678" class="btn btn-cta-secondary">📞 03-1234-5678</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🚀</span>
+                        <span class="logo-text">Mekanikku+</span>
+                    </div>
+                    <p class="footer-description">
+                        プロフェッショナルなウェブソリューションで<br>
+                        ビジネスの成長をサポートします
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="#111"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="#111" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">サービス</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">ウェブデザイン</a></li>
+                        <li><a href="#services">ウェブ開発</a></li>
+                        <li><a href="#services">マーケティング</a></li>
+                        <li><a href="#services">コンサルティング</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">会社情報</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">会社概要</a></li>
+                        <li><a href="#">採用情報</a></li>
+                        <li><a href="#">お知らせ</a></li>
+                        <li><a href="#">プライバシーポリシー</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">お問い合わせ</h4>
+                    <ul class="footer-contact">
+                        <li>📧 info@mekanikku.com</li>
+                        <li>📞 03-1234-5678</li>
+                        <li>📍 東京都渋谷区〇〇1-2-3</li>
+                        <li>🕐 平日 9:00-18:00</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mekanikku+. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- スクロールトップボタン -->
+    <button class="scroll-top" id="scrollTop" aria-label="ページトップへ戻る">
+        ↑
+    </button>
+
+    <script>
+        // ハンバーガーメニュー
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.querySelectorAll('.nav-link, .btn-nav');
+        
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.checked = false;
+            });
+        });
+
+        // スクロールトップボタン
+        const scrollTopBtn = document.getElementById('scrollTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+        
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // スムーススクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // スクロールアニメーション
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.feature-card, .service-card, .portfolio-item, .testimonial-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
